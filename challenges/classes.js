@@ -48,5 +48,5 @@ class CubeMaker extends CuboidMaker {
 
 const cube = new CubeMaker({ sideLength: 5 }); // Since cube needs less arguments than cuboids....
 
-console.log(cube.volume()); // 100
-console.log(cube.surfaceArea()); // 130
+console.log(cube.volume());
+console.log(cube.surfaceArea());
