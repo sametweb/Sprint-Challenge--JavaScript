@@ -266,7 +266,7 @@ const countPopulation = (total, item) => {
 
 const populationTotal = zooAnimals.reduce(countPopulation, 0);
 
-console.log(populationTotal);
+console.log("Total Population", populationTotal);
 
 /*
 
